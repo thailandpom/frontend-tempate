@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/{page?}', 'FrontendController@index');
+Route::get('/{page?}', 'FrontendController@index')->name('index');

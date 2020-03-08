@@ -28,6 +28,7 @@
  .mobile-logo {
      color: #fff;
      font-size: 18px;
+     height: 90px;
  }
  
  .bor-nav-tran {
@@ -70,6 +71,7 @@
      overflow-x: hidden;
      transition: 0.5s;
      padding-top: 60px;
+     z-index: 2001;
  }
  
  .sidenav a {
@@ -82,7 +84,7 @@
  }
  
  .sidenav a:hover {
-     color: #f1f1f1;
+     color: #606060;
  }
  
  .sidenav .closebtn {
@@ -96,7 +98,6 @@
  
  .inside-nav {
      position: relative;
-     height: 50px;
  }
  
  .help-contact {
@@ -107,6 +108,12 @@
  .po-si-r {
      position: absolute;
      right: 20px;
+ }
+ 
+ .nav-mobile {
+     z-index: 2001;
+     position: relative;
+     background-color: #000;
  }
  
  .banner-home-mobile {
@@ -156,6 +163,7 @@
  .burger-color {
      color: #fff;
      font-size: 30px;
+     margin-top: 32px;
  }
  
  .dropdown-item.active,

@@ -25,15 +25,14 @@ class FrontendController extends Controller
     $response2 = curl_exec($curl2);
     curl_close($curl2);
     $contact =  json_decode($response2);
-    // return dd(/$contact);
     view()->share('contact',$contact->contacts);
 }
     public function index($page = 'home')
     {
-        if($page == 'home'){
+        // return dd('ded');
             $curl = curl_init();
             curl_setopt_array($curl, array(
-            CURLOPT_URL => "http://13.229.92.91/api/getContent/home",
+            CURLOPT_URL => "http://13.229.92.91/api/getContent/".$page,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -47,13 +46,9 @@ class FrontendController extends Controller
             ));
             $response = curl_exec($curl);
             curl_close($curl);
-    
-         
-         
             $datas = json_decode($response);
-            // return dd($datas->widgets);
             return view('front-end.home')->with('datas',$datas);
-        }
+        
        
     }
 
