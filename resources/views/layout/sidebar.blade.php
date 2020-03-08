@@ -3,9 +3,8 @@
     <div class="text-center m-auto nav-top-logo header-color">
     <img class="icon-destop" src="{{ asset('images/logojetsada.svg')}}" >
     </div>
-    <div class="left-content header-color  mt-5"> 
+    <div class="left-content header-color  mt-4"> 
             <div class="pr-5  mt-1">
-            
             <div>
             @foreach($contact as $con)
                 {{$con->type == 1 ? 'Phone' : ($con->type == 2 ? 'ID LINE' :'Email') }} : {{$con->name}} <br>
