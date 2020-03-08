@@ -1,0 +1,27 @@
+.h-video {
+    height: 400px;
+}
+
+.footer {
+    border-top: 3px solid #B82626;
+}
+
+.logo-footer {
+    font-size: 30px;
+    color: #BEB5A3;
+}
+
+.title-footer {
+    color: #BEB5A3;
+    font-size: 24px;
+}
+
+.main-footer {
+    color: #B82626;
+    font-size: 24px;
+}
+
+.des-footer {
+    color: #BEB5A3;
+    font: 16px;
+}
