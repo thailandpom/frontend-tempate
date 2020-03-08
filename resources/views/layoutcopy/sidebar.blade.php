@@ -5,14 +5,8 @@
     </div>
     <div class="left-content header-color  mt-5"> 
             <div class="pr-5  mt-1">
-            
-            <div>
-            @foreach($contact as $con)
-                {{$con->type == 1 ? 'Phone' : ($con->type == 2 ? 'ID LINE' :'Email') }} : {{$con->name}} <br>
-            @endforeach
-             </div>
-          
-           
+            <h5>ID LINE : raklotto2 </h5>
+            <h5>Tel :  062-4026406</h5>
             </div>
         </div>
 </div>

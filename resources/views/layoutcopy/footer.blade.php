@@ -13,10 +13,9 @@
                     </div>
                     <div class="col-lg-4">
                             <div class="main-footer">บริการ Call Center โทร</div>
-                            @foreach($contact as $con)
-                            <div class="title-footer">  {{$con->type == 1 ? 'Phone' : ($con->type == 2 ? 'ID LINE' :'Email') }} : {{$con->name}}</div>
-                            @endforeach
-                           
+                            <div class="title-footer">090-XXX-XXX</div>
+                            <div class="title-footer">ID LINE: XXXXX </div>
+                            <div class="title-footer">ID LINE: XXXXX </div>
                     </div>
                     <div class="col-lg-12 text-center my-4">
                         <div class="font-allright">© 2020 Welovejetsadabet All rights reserved.</div>
