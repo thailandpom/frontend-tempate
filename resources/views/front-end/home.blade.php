@@ -1,6 +1,6 @@
 @extends('layout.default')
 @section('style')
-<link rel="stylesheet" href="{{ asset('public/css/page.css')}}" >
+<link rel="stylesheet" href="{{ asset('css/page.css')}}" >
 @endsection
 @section('seo')
 <title>{{$seo->seo_title}}</title>

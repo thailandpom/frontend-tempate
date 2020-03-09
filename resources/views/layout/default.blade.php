@@ -2,10 +2,10 @@
     <head>
         @yield('seo')
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="{{ asset('public/css/sidenav.css') }}" >
-        <link rel="stylesheet" href="{{ asset('public/css/font.css') }}" >
-        <link rel="icon" href="{{ asset('public/images/logojetsada.svg')}}" type="image/x-icon"/>
-       <link rel="shortcut icon" href="{{ asset('public/images/logojetsada.svg')}}" type="image/x-icon"/>
+        <link rel="stylesheet" href="{{ asset('css/sidenav.css') }}" >
+        <link rel="stylesheet" href="{{ asset('css/font.css') }}" >
+        <link rel="icon" href="{{ asset('images/logojetsada.svg')}}" type="image/x-icon"/>
+       <link rel="shortcut icon" href="{{ asset('images/logojetsada.svg')}}" type="image/x-icon"/>
         @yield('style')
     </head>
     <body>
