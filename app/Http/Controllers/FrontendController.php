@@ -9,7 +9,7 @@ class FrontendController extends Controller
 { public function __construct() {
     $curl2 = curl_init();
     curl_setopt_array($curl2, array(
-    CURLOPT_URL => "http://13.229.92.91/api/getContact",
+    CURLOPT_URL => config('app.url_backend')."/api/getContact",
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => "",
     CURLOPT_MAXREDIRS => 10,
@@ -21,6 +21,7 @@ class FrontendController extends Controller
         "Content-Type: application/json"
     ),
     ));
+    
 
     $response2 = curl_exec($curl2);
     curl_close($curl2);
@@ -30,10 +31,10 @@ class FrontendController extends Controller
 }
     public function index($page = 'home')
     {
-        // return dd('ded');
+        // return dd(config('app.url_backend'));
             $curl = curl_init();
             curl_setopt_array($curl, array(
-            CURLOPT_URL => "http://13.229.92.91/api/getContent/".$page,
+            CURLOPT_URL => config('app.url_backend')."/api/getContent/".$page,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -51,7 +52,7 @@ class FrontendController extends Controller
     //   return dd($datas);
             $curl3 = curl_init();
             curl_setopt_array($curl3, array(
-            CURLOPT_URL => "http://13.229.92.91/api/getPage/".$page,
+            CURLOPT_URL => config('app.url_backend')."/api/getPage/".$page,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -74,4 +75,3 @@ class FrontendController extends Controller
     }
 
 }
-
