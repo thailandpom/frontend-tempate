@@ -1,7 +1,138 @@
  body {
-     background-color: #060606;
+     background-color: #f0f0f0;
      font-family: 'supermarket';
      font-size: 24px;
+     color: #181818;
+ }
+ 
+ .header-color {
+     color: #f0f0f0;
+ }
+ 
+ .text-border-between {
+     background-color: #181818;
+ }
+ 
+ .nav-destop {
+     background-color: #181818;
+     position: relative;
+     z-index: 2001;
+ }
+ 
+ .footer {
+     border-top: 3px solid #B82626;
+     background-color: #181818;
+     color: #f0f0f0;
+ }
+ 
+ .navbar-dark .navbar-nav .nav-link {
+     color: #f0f0f0;
+     font-size: 24px;
+ }
+ 
+ .nav-item.active .nav-link {
+     color: #B82626 !important;
+     font-weight: bold;
+     font-size: 24px;
+ }
+ 
+ .content-editor {
+     color: #181818;
+     font-size: 24px;
+ }
+ 
+ .content-editor h3 {
+     color: #B82626;
+     font-size: 36px;
+ }
+ 
+ .c-red {
+     color: #B82626 !important;
+ }
+ 
+ .c-gray {
+     color: #7C7870 !important;
+ }
+ 
+ .c-black {
+     color: #060606 !important;
+ }
+ 
+ .c-light-gray {
+     color: #BEB5A3 !important;
+ }
+ 
+ .tap-color {
+     background-color: #181818;
+     height: 60px;
+ }
+ 
+ .main-footer {
+     color: #B82626;
+     font-size: 24px;
+ }
+ 
+ .help-contact {
+     color: #000000;
+     font-size: 14px;
+ }
+ 
+ .burger-color {
+     color: #fff;
+     font-size: 30px;
+     margin-top: 32px;
+ }
+ 
+ .dropdown-item.active,
+ .dropdown-item:active {
+     color: #fff;
+     text-decoration: none;
+     background-color: #B82626;
+ }
+ 
+ .text-upderline {
+     border-bottom: 1px solid #B82626;
+ }
+ 
+ .mobile-logo {
+     color: #fff;
+     font-size: 18px;
+     height: 90px;
+ }
+ 
+ .bor-nav-tran {
+     border-top: 3px solid #B82626;
+     border-bottom: 3px solid #B82626;
+ }
+ 
+ .btn-register {
+     background-color: #B82626;
+     border: 1px solid #B82626;
+     color: #f0f0f0;
+     width: 180px;
+     height: 40px;
+ }
+ 
+ .posit {
+     position: absolute;
+     right: 20px;
+ }
+ 
+ .title-footer {
+     font-size: 24px;
+ }
+ 
+ .des-footer {
+     font: 16px;
+ }
+ 
+ .font-allright {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ h1 {
+     color: #B82626;
+     font-size: 36px;
  }
  
  h3 {
@@ -21,21 +152,6 @@
      border-radius: 0px;
  }
  
- .text-upderline {
-     border-bottom: 1px solid #B82626;
- }
- 
- .mobile-logo {
-     color: #fff;
-     font-size: 18px;
-     height: 90px;
- }
- 
- .bor-nav-tran {
-     border-top: 3px solid #B82626;
-     border-bottom: 3px solid #B82626;
- }
- 
  .logo-size {
      height: 80px;
  }
@@ -43,17 +159,6 @@
  .left-content {
      right: 20%;
      position: absolute;
- }
- 
- .navbar-dark .navbar-nav .nav-link {
-     color: #BEB5A3;
-     font-size: 24px;
- }
- 
- .nav-item.active .nav-link {
-     color: #B82626 !important;
-     font-weight: bold;
-     font-size: 24px;
  }
  
  .nav-mobile {
@@ -98,11 +203,6 @@
  
  .inside-nav {
      position: relative;
- }
- 
- .help-contact {
-     color: #fff;
-     font-size: 14px;
  }
  
  .po-si-r {
@@ -154,23 +254,6 @@
      .sidenav a {
          font-size: 18px;
      }
- }
- 
- .header-color {
-     color: #fff;
- }
- 
- .burger-color {
-     color: #fff;
-     font-size: 30px;
-     margin-top: 32px;
- }
- 
- .dropdown-item.active,
- .dropdown-item:active {
-     color: #fff;
-     text-decoration: none;
-     background-color: #B82626;
  }
  
  .icon-destop {

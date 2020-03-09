@@ -1,7 +1,9 @@
 <div class="nav-destop">
 <div class="d-flex">
     <div class="text-center m-auto nav-top-logo header-color">
-    <img class="icon-destop" src="{{ asset('images/logojetsada.svg')}}" >
+        <a href="{{route('index','home')}}">
+          <img class="icon-destop" src="{{ asset('images/logojetsada.svg')}}" >
+        </a>
     </div>
     <div class="left-content header-color  mt-4"> 
             <div class="pr-5  mt-1">
@@ -10,8 +12,6 @@
                 {{$con->type == 1 ? 'Phone' : ($con->type == 2 ? 'ID LINE' :'Email') }} : {{$con->name}} <br>
             @endforeach
              </div>
-          
-           
             </div>
         </div>
 </div>
@@ -49,7 +49,7 @@
                     {{-- <li class="nav-item">
                         <a class="nav-link" href="#">ดูผลหวย</a> --}}
                     </li>
-                    <li class="nav-item dropdown">
+                    {{-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">ดูผลหวย</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
@@ -58,7 +58,7 @@
                             <a class="dropdown-item" href="{{route('index','foreign_lottery')}}">ดูผลหวยหุ้นต่างประเทศ</a>
                             <a class="dropdown-item" href="{{route('index','lottovip')}}">ดูผลหวยยี่กี</a>
                         </div>
-                    </li>
+                    </li> --}}
                     {{-- <li class="nav-item">
                         <a class="nav-link" href="#">โปรโมชั่น</a>
                     </li> --}}
@@ -98,14 +98,14 @@
         <a href="{{route('index','special_privileges')}}">สิทธิพิเศษ</a>
         <a href="{{route('index','business_partner')}}">หุ้นส่วนธุรกิจ</a>
         <a href="{{route('index','rules')}}">กติกา</a>
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+        {{-- <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
         aria-expanded="false">ดูผลหวย</a>
     <div class="dropdown-menu" aria-labelledby="dropdown01">
         <a class="dropdown-item" href="{{route('index','thai_lottery')}}">ดูผลหวยหุ้นไทย</a>
         <a class="dropdown-item" href="{{route('index','part_results_thai_lottery')}}">ผลหวยหุ้นไทยย้อนหลัง</a>
         <a class="dropdown-item" href="{{route('index','foreign_lottery')}}">ดูผลหวยหุ้นต่างประเทศ</a>
         <a class="dropdown-item" href="{{route('index','lottovip')}}">ดูผลหวยยี่กี</a>
-    </div>
+    </div> --}}
         <a href="{{route('index','contact')}}">ติดต่อเรา</a>
       </div>
 </div>

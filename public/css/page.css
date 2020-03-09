@@ -2,59 +2,8 @@
     height: 400px;
 }
 
-.footer {
-    border-top: 3px solid #B82626;
-}
-
 .logo-footer {
-    font-size: 30px;
-    color: #BEB5A3;
-}
-
-.title-footer {
-    color: #BEB5A3;
-    font-size: 24px;
-}
-
-.main-footer {
-    color: #B82626;
-    font-size: 24px;
-}
-
-.des-footer {
-    color: #BEB5A3;
-    font: 16px;
-}
-
-.font-allright {
-    color: #BEB5A3;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.content-editor {
-    color: #BEB5A3;
-    font-size: 24px;
-}
-
-.content-editor h3 {
-    color: #B82626;
-    font-size: 36px;
-}
-
-.c-red {
-    color: #B82626 !important;
-}
-
-.c-gray {
-    color: #7C7870 !important;
-}
-
-.c-black {
-    color: #060606 !important;
-}
-
-.c-light-gray {
-    color: #BEB5A3 !important;
+    width: 300px;
 }
 
 .text-border-between {
@@ -72,13 +21,11 @@
     font-size: 24px;
 }
 
-.nav-destop {
-    background-color: #060606;
+.fix-z-index {
     position: relative;
     z-index: 2000;
 }
 
-.fix-z-index {
-    position: relative;
-    z-index: 2000;
+.dropdown-menu {
+    z-index: 3000;
 }

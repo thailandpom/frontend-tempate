@@ -2,7 +2,9 @@
         <div class="container">
                 <div class="row mt-5">
                     <div class="col-lg-4">
-                        <div class="logo-footer">Welovejetsadabet.com</div>
+                        <div class="">
+                                <img class="logo-footer" src="{{ asset('images/logojetsada.svg')}}" >
+                        </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="main-footer">บริการ ฝากถอน ผ่านธนาคารชั้นนำ</div>
