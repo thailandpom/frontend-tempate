@@ -2,7 +2,7 @@
 <div class="d-flex">
     <div class="text-center m-auto nav-top-logo header-color">
         <a href="{{route('index','home')}}">
-          <img class="icon-destop" src="{{ asset('images/logojetsada.svg')}}" >
+          <img class="icon-destop" src="{{ asset('public/images/logojetsada.svg')}}" >
         </a>
     </div>
     <div class="left-content header-color  mt-4"> 
