@@ -5,7 +5,8 @@
         <link rel="stylesheet" href="{{ asset('css/sidenav.css') }}" >
         <link rel="stylesheet" href="{{ asset('css/font.css') }}" >
         <link rel="icon" href="{{ asset('images/logojetsada.svg')}}" type="image/x-icon"/>
-       <link rel="shortcut icon" href="{{ asset('images/logojetsada.svg')}}" type="image/x-icon"/>
+        <link rel="shortcut icon" href="{{ asset('images/logojetsada.svg')}}" type="image/x-icon"/>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         @yield('style')
     </head>
     <body>
