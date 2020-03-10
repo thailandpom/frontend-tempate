@@ -157,7 +157,7 @@
  }
  
  .left-content {
-     right: 20%;
+     right: 0;
      position: absolute;
  }
  
@@ -220,19 +220,11 @@
      display: none;
  }
  
- @media screen and (max-width: 1600px) {
-     .left-content {
-         right: 10%;
-     }
- }
+ @media screen and (max-width: 1600px) {}
  
- @media screen and (max-width: 1250px) {
-     .left-content {
-         right: 5px;
-     }
- }
+ @media screen and (max-width: 1250px) {}
  
- @media screen and (max-width: 858px) {
+ @media screen and (max-width: 1254px) {
      .nav-destop {
          display: none;
      }
