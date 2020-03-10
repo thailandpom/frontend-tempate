@@ -16,7 +16,7 @@
                     <div class="col-lg-4">
                             <div class="main-footer">บริการ Call Center โทร</div>
                             @foreach($contact as $con)
-                            <div class="title-footer">  {{$con->type == 1 ? 'Phone' : ($con->type == 2 ? 'ID LINE' :'Email') }} : {{$con->name}}</div>
+                            <div class="title-footer">  {{$con->type == 1 ? 'Phone' : ($con->type == 2 ? 'ID LINE' : ($con->type == 3 ? 'Email' : 'LINE @')) }} : {{$con->name}}</div>
                             @endforeach
                            
                     </div>
