@@ -81,12 +81,12 @@
 <div class="container py-3" style="background-color:{{$data->bg_color}}">
         <div class="row">
             @foreach($data->items as $item)
-           <div class="col-lg-6 {{$data->amount_column == 1 ? 'order-1':'order-2' }} align-self-center mb-lg-0  mb-4">
+           <div class="col-lg-6 {{$data->amount_column == 1 ? 'order-lg-1 order-1':'order-1 order-lg-2' }} align-self-center mb-lg-0  mb-4">
                <div class="content-editor">
                     {!!$item->content!!}
               </div>
            </div>
-           <div class="col-lg-6 {{$data->amount_column == 1 ? 'order-2':'order-1'}} mb-lg-0  mb-4">
+           <div class="col-lg-6 {{$data->amount_column == 1 ? 'order-lg-2 order-2':'order-2 order-lg-1'}} mb-lg-0  mb-4">
                <a href="{{$item->link!=null? $item->link:'#'}}" target="_blank">
                 <img class="w-100" alt="{{$item->img_alt}}" src="{{config('app.url_backend')}}/media/widget/{{$item->image}}">
                 </a>
@@ -134,42 +134,42 @@
             </div>
     </div>
     <div class="row my-4"> 
-        <div class="col-md-2 col-sm-4 col-xs-6">
+        <div class="col-md-2 col-sm-4 col-6">
                 <div class="client"> 
                     <a href="https://www.scbeasy.com/v1.4/site/presignon/index.asp" title="เติมเครดิต แทงหวย ธนาคารไทยพาณิชย์"> 
                     <img class="mw-100" src="https://www.raklotto.com/assets/themes/default/images/bank/bank-scb.jpg" alt="เติมเครดิต แทงหวย ธนาคารไทยพาณิชย์">
                      </a>
                 </div>
         </div>
-        <div class="col-md-2 col-sm-4 col-xs-6">
+        <div class="col-md-2 col-sm-4 col-6">
                 <div class="client"> 
                     <a href="https://online.kasikornbankgroup.com/K-Online/login.jsp?lang=th" title="เติมเครดิต แทงหวย ธนาคารกสิกรไทย"> 
                 <img  class="mw-100" src="https://www.raklotto.com/assets/themes/default/images/bank/bank-kbank.jpg" alt="เติมเครดิต แทงหวย ธนาคารกสิกรไทย"> 
                      </a>
                 </div>
         </div>
-        <div class="col-md-2 col-sm-4 col-xs-6">
+        <div class="col-md-2 col-sm-4 col-6">
                 <div class="client"> 
                     <a href="https://ibanking.bangkokbank.com/SignOn.aspx" title="เติมเครดิต แทงหวย ธนาคารกรุงเทพ"> 
                         <img  class="mw-100" src="https://www.raklotto.com/assets/themes/default/images/bank/bank-bbl.jpg" alt="เติมเครดิต แทงหวย ธนาคารกรุงเทพ"> 
                     </a>
                 </div>
         </div>
-        <div class="col-md-2 col-sm-4 col-xs-6">
+        <div class="col-md-2 col-sm-4 col-6">
                 <div class="client"> 
                     <a href="https://www.ktbnetbank.com/consumer/" title="เติมเครดิต แทงหวย ธนาคารกรุงไทย"> 
                     <img  class="mw-100" src="https://www.raklotto.com/assets/themes/default/images/bank/bank-ktb.jpg" alt="เติมเครดิต แทงหวย ธนาคารกรุงไทย">
                  </a>
                 </div>
         </div>
-        <div class="col-md-2 col-sm-4 col-xs-6">
+        <div class="col-md-2 col-sm-4 col-6">
                 <div class="client">
                      <a href="https://www.krungsrionline.com/BAY.KOL.WebSite/Common/Login.aspx?language=TH" title="เติมเครดิต แทงหวย ธนาคารกรุงศรีอยุธยา"> 
                         <img  class="mw-100" src="https://www.raklotto.com/assets/themes/default/images/bank/bank-krungsri.jpg" alt="เติมเครดิต แทงหวย ธนาคารกรุงศรีอยุธยา"> 
                     </a>
                 </div>
               </div>
-         <div class="col-md-2 col-sm-4 col-xs-6">
+         <div class="col-md-2 col-sm-4 col-6">
                 <div class="client"> 
                     <a href="https://www.tmbdirect.com/tmb/kdw1.12.4#_frmIBPreLogin" title="เติมเครดิต แทงหวย ธนาคารทหารไทย">
                      <img class="mw-100" src="https://www.raklotto.com/assets/themes/default/images/bank/bank-tmb.jpg" alt="เติมเครดิต แทงหวย ธนาคารทหารไทย">
