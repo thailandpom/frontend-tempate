@@ -20,6 +20,7 @@
                                 {{$con->type == 1 ? 'Phone' : ($con->type == 2 ? 'ID LINE' : ($con->type == 3 ? 'Email' : 'LINE @')) }} : {{$con->name}}</div>
                             @endforeach
                            
+                            
                     </div>
                     <div class="col-lg-12 text-center my-4">
                         <div class="font-allright">© 2020 Welovejetsadabet All rights reserved.</div>
